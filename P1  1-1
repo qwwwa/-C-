@@ -1,0 +1,7 @@
+//计算整数15和37的和，并显示结果
+#include<stdio.h>
+int main()
+{
+  printf("%d",15+37);
+  return 0;
+}
