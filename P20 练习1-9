@@ -1,0 +1,23 @@
+//编写一段程序，像右面这样显示读取到的三个整数的和。
+//请输入三个整数。
+//整数1：7
+//整数2：15
+//整数3：23
+//它们的和是45.
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	int m;
+	puts("请输入三个整数。");
+	printf("整数1：");
+	scanf("%d", &a);
+	printf("整数2：");
+	scanf("%d", &b);
+  printf("整数3：");
+	scanf("%d", &c);
+	m = a + b + c;
+	printf("他们的和是%d.\n", m);
+	return 0;
+}
