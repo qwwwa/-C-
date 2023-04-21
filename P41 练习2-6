@@ -4,7 +4,6 @@
 int main()
 {
   int h;
-  double w;
   
   printf("请输入您的身高:");
   scanf("%d",&h);
