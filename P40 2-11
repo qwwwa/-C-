@@ -18,7 +18,10 @@ int main()
 	ave = (double)sum / 3;
 
 	printf("他们的合计值是%5d.\n", sum);
+	//%5d 显示至少5位的十进制整数
+	
 	printf("他们的平均值是%5.1f.\n", ave);
-
+	//%5.1f 显示至少五位的浮点数。但是，小数后只显示一位
+	
 	return 0;
 }
