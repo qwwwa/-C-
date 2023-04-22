@@ -1,0 +1,16 @@
+//编写一段程序，像右面这样输入一个整数值，显示出他的绝对值
+//请输入一个整数：
+//绝对值是
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("请输入一个整数:");
+	scanf("%d", &a);
+
+	if (a > 0 || a == 0)
+		printf("绝对值是%d", a);
+	else
+		printf("绝对值是%d", -a);
+	return 0;
+}
