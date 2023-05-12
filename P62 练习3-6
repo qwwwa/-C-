@@ -1,0 +1,32 @@
+//编写一段程序，计算出输入的三个争夺胡中的最小值并显示
+//用if语句
+#include<stdio.h>
+int main()
+{
+	int a,b,c,min;
+
+	puts("请输入3个整数。");
+
+	printf("整数1：");
+	scanf("%d", &a);
+	printf("整数2：");
+	scanf("%d", &b);
+	printf("整数3：");
+	scanf("%d", &c);
+
+	if (a>b&&b>c)
+	{
+		min = c;
+	}
+	else if(b>c&&c>a)
+	{
+		min = b;
+	}
+	else
+	{
+		min = a;
+	}
+	printf("较小的数是%d.\n", min);
+
+	return 0;
+}
